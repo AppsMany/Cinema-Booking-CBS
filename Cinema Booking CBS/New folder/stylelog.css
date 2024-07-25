@@ -1,0 +1,73 @@
+body {
+ width: 98%;
+ height: 98.7%;
+ font-weight: bolder;
+ font-family: "Helvetica Neue", Helvetica, sans-serif;
+ background-image: url(../img/rasta.jpg);
+ background-position: right;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+#container {
+  position: fixed;
+ width: 350px;
+  height: 240px;
+  top: 50%;
+  left: 50%;
+  margin-top: -140px;
+  margin-left: -170px;
+  border-radius: 3px;
+  background: linear-gradient(to right,red,yellow,green); 
+  border: 1px solid #ccc;
+    
+}
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+p{
+margin-left: 10px;
+
+}
+input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    outline: none;
+}
+input[type=text],
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+    border: 1px solid #c7d0d2;
+    border-radius: 2px;
+    }
+input[type=text]:hover,
+input[type=password]:hover {
+border: 1px solid #b6bfc0;
+box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 1px solid #a8c9e4;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+input[type=submit] {
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+font-size: 18px;
+    font-weight: bold;
+    color:black;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid ;
+    border-color: white;
+}
