@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+    
+background: linear-gradient(179deg, #ff0000, #ffff00, #005f00);
+background-size: 600% 600%;
+    font-family: 'Poppins', sans-serif;
+
+
+-webkit-animation: AnimationName 45s ease infinite;
+-moz-animation: AnimationName 45s ease infinite;
+animation: AnimationName 45s ease infinite;
+}
+
+
+
+
+@-webkit-keyframes AnimationName {
+0%{background-position:76% 0%}
+50%{background-position:25% 100%}
+100%{background-position:76% 0%}
+}
+@-moz-keyframes AnimationName {
+0%{background-position:76% 0%}
+50%{background-position:25% 100%}
+100%{background-position:76% 0%}
+}
+@keyframes AnimationName {
+0%{background-position:76% 0%}
+50%{background-position:25% 100%}
+100%{background-position:76% 0%}
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    background: linear-gradient(to right,red,yellow,green); 
+
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background: linear-gradient(to right,red,yellow,green); 
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color:blueviolet;
+    font-size: 11px;
+    height: 13px;
+}
